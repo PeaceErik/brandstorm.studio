@@ -3,11 +3,11 @@
 <?= '<header>' ?>
 
     <?= '<div class="header-left">
-            <img class="header-logo" src="./assets/brandstorm-logo-white.svg" alt="Brandstorm Studios logo">
+            <a href="/"><img class="header-logo" src="./assets/brandstorm-logo-white.svg" alt="Brandstorm Studios logo"></a>
         </div>' ?>
 
     <?= '<div class="header-mid">
-            <img class="header-logo" src="./assets/transp_favicon.svg">
+            <a href="/"><img class="header-logo" src="./assets/transp_favicon.svg"></a>
          </div>' ?>
 
     <?= '<div class="header-right">
