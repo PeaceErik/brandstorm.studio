@@ -1,0 +1,86 @@
+/* Universal styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    background-color: #fff;
+}
+
+
+/* Parts: Header */
+
+header {
+    position: fixed;
+    top: 0;
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 2%;
+    z-index: 99;
+    mix-blend-mode: difference;
+    color: #fff;
+}
+
+.header-left {
+    width: 30%;
+}
+
+.header-mid {
+    width: 40%;
+    height: 2.5vh;
+    display: flex;
+    justify-content: center;
+}
+
+.header-right {
+    width: 30%;
+    display: flex;
+    justify-content: end;
+}
+
+
+/* Section 1: Hero */
+
+.hero {
+    height: 100vh;
+}
+
+#hero-video {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.hero-logo {
+    position: absolute;
+    right: 3%;
+    top: 12%;
+    font-weight: 600;
+    font-size: 8rem;
+    text-align: right;
+    color: #fff;
+}
+
+.hero-txt {
+    position: absolute;
+    left: 3%;
+    bottom: 8%;
+    font-weight: 500;
+    font-size: 1.9rem;
+    color: #fff;
+
+}
+
+/* Section 2: Approach */
+
+.our-approach {
+    height: 200vh;
+    background-color: #fff;
+}
