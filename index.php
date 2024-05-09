@@ -34,11 +34,10 @@
             <div class="blinder"></div>
             <div class="blinder"></div>
             <div class="blinder"></div>
-            <div class="blinder"></div>
 
         </div>
 
-        <img src="/assets/logo-white.svg" alt="Brandstorm Studio logo">
+        <img class="preloader-logo" src="/assets/logo-white.svg" alt="Brandstorm Studio logo">
 
     </div>
 
@@ -60,7 +59,9 @@
 
     <section class="our-approach">
         <h2>test</h2>
-    </section>
+    </section>  
+
+    <script type="module" src="parts/preloader.js"></script>
     
 </body>
 
