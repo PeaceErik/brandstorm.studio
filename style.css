@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 body {
@@ -18,28 +19,47 @@ body {
 header {
     position: fixed;
     top: 0;
-    height: 5vh;
+    height: 5.5vh;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2% 2%;
+    padding: 0% 2%;
     z-index: 99;
     mix-blend-mode: difference;
     color: #fff;
+    background-color: transparent;
+
+    /* Left container: txt logo */
+    .header-left {
+        width: 30%;
+        
+        /* Txt-logo styles */
+        .header-logo {
+            cursor: pointer;
+            width: 40%;
+        }
+    }
+    
+    /* Mid container: logo */
+    .header-mid {
+        width: 40%;
+        display: flex;
+        justify-content: center;
+    }
+
+    /* Right container: menu */
+    .header-right {
+        width: 30%;
+        display: flex;
+        justify-content: end;
+    }
 }
 
-.header-left {
-    width: 30%;
-}
 
-.header-mid {
-    width: 40%;
-    height: 2.5vh;
-    display: flex;
-    justify-content: center;
-}
+/* Parts: Pre-loader */
 
+<<<<<<< HEAD
 .header-right {
     width: 30%;
     display: flex;
@@ -53,6 +73,39 @@ header {
 .menu-line2 {
     border-top: 3px solid #fff;
     width: 12%;
+=======
+.pre-loader {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    z-index: 999;
+
+    /* Blinders: Container */
+    .blinder-container {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+
+        /* Blinder: alle 5 af dem */
+        .blinder {
+            background-color: #000;
+            height: 100vh;
+            flex: 1;
+            transform-origin: top;
+        }
+    }
+
+    /* Pre-loader logo */
+    .preloader-logo {
+        position: absolute;
+        margin: auto;
+        top: 0; right: 0; bottom: 0; left: 0;
+        width: 6vw;
+
+    }
+>>>>>>> e4cb3eda764a0bf183af70fd2da71d95275c989e
 }
 
 
@@ -63,18 +116,21 @@ header {
 }
 
 #hero-video {
-    min-width: 100%;
-    min-height: 100%;
+    position: absolute;
+    top: 0;
 }
 
 .hero-logo {
     position: absolute;
-    right: 3%;
-    top: 12%;
+    right: 2%;
+    top: 10%;
     font-weight: 600;
-    font-size: 8rem;
+    font-size: 7.5rem;
+    line-height: 1;
     text-align: right;
     color: #fff;
+    z-index: 20;
+    overflow-y: hidden;
 }
 
 .hero-txt {
@@ -82,7 +138,7 @@ header {
     left: 3%;
     bottom: 8%;
     font-weight: 500;
-    font-size: 1.9rem;
+    font-size: 1.95rem;
     color: #fff;
 
 }
