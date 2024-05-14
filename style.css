@@ -43,7 +43,16 @@ header {
 .header-right {
     width: 30%;
     display: flex;
-    justify-content: end;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    gap: 12px;
+}
+
+.menu-line1,
+.menu-line2 {
+    border-top: 3px solid #fff;
+    width: 12%;
 }
 
 

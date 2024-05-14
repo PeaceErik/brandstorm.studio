@@ -11,8 +11,8 @@
          </div>' ?>
 
     <?= '<div class="header-right">
-            <div>test</div>
-            <div></div>
+            <div class="menu-line1"></div>
+            <div class="menu-line2"></div>
          </div>' ?>
 
 <?= '</header>' ?>
