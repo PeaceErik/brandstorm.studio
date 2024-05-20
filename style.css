@@ -71,7 +71,7 @@ header {
 .menu-line1,
 .menu-line2 {
     border-top: 3px solid #fff;
-    width: 12%;
+    width: 8%;
 }
 
 .pre-loader {
@@ -154,17 +154,44 @@ header {
 /* Section 3: Services */
 
 #our-services {
+    margin-top: 40vh;
     display: flex;
     flex-direction: column;
     height: 100vh;
     background-color: #fff;
+    border: 1px solid red;
 }
 
 .headline-container {
+    display: flex;
+    justify-content: start;
+    align-items: end;
     height: 10vh;
+    width: 100%;
+    border: 1px solid red;
+}
+
+.headline-row {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    padding-left: 2%;
+}
+
+.circle {
+    height: 1.2vh;
+    width: 1.2vh;
+    background-color: black;
+    border-radius: 50%;
 }
 
 h2 {
     color: black;
-    font-size: 2rem;
+    font-size: 1.2rem;
+    font-weight: 400;
 }
+
+
+

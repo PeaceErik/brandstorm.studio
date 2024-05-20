@@ -60,8 +60,12 @@
     <section id="our-services">
         
         <div class="headline-container">
-            <h2>OUR SERVICES</h2>
+            <div class="headline-row">
+                <div class="circle"></div>
+                <h2>OUR SERVICES</h2>
+            </div>
         </div>
+        <p> test </p>
 
     </section>
 
