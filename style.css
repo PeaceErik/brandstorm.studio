@@ -29,31 +29,31 @@ header {
     mix-blend-mode: difference;
     color: #fff;
     background-color: transparent;
+}
 
-    /* Left container: txt logo */
-    .header-left {
-        width: 30%;
-        
-        /* Txt-logo styles */
-        .header-logo {
-            cursor: pointer;
-            width: 40%;
-        }
-    }
+/* Left container: txt logo */
+.header-left {
+    width: 30%;
     
-    /* Mid container: logo */
-    .header-mid {
+    /* Txt-logo styles */
+    .header-logo {
+        cursor: pointer;
         width: 40%;
-        display: flex;
-        justify-content: center;
     }
+}
 
-    /* Right container: menu */
-    .header-right {
-        width: 30%;
-        display: flex;
-        justify-content: end;
-    }
+/* Mid container: logo */
+.header-mid {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+/* Right container: menu */
+.header-right {
+    width: 30%;
+    display: flex;
+    justify-content: end;
 }
 
 
@@ -79,33 +79,33 @@ header {
     width: 100%;
     position: absolute;
     z-index: 999;
-
-    /* Blinders: Container */
-    .blinder-container {
-        position: absolute;
-        top: 0;
-        width: 100%;
-        height: 100vh;
-        display: flex;
-
-        /* Blinder: alle 5 af dem */
-        .blinder {
-            background-color: #000;
-            height: 100vh;
-            flex: 1;
-            transform-origin: top;
-        }
-    }
-
-    /* Pre-loader logo */
-    .preloader-logo {
-        position: absolute;
-        margin: auto;
-        top: 0; right: 0; bottom: 0; left: 0;
-        width: 6vw;
-
-    }
 >>>>>>> e4cb3eda764a0bf183af70fd2da71d95275c989e
+}
+
+/* Blinders: Container */
+.blinder-container {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+/* Blinder: alle 5 af dem */
+.blinder {
+    background-color: #000;
+    height: 100vh;
+    flex: 1;
+    transform-origin: top;
+}
+
+/* Pre-loader logo */
+.preloader-logo {
+    position: absolute;
+    margin: auto;
+    top: 0; right: 0; bottom: 0; left: 0;
+    width: 6vw;
+
 }
 
 
