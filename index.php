@@ -42,7 +42,7 @@
     </div>
 
 
-    <section class="hero">
+    <section id="hero">
 
         <h1 class="hero-logo">BRANDSTORM.<br>STUDIO</h1>
 
@@ -57,7 +57,16 @@
     </section>
 
 
-    <section class="our-approach">
+    <section id="our-services">
+        
+        <div class="headline-container">
+            <h2>OUR SERVICES</h2>
+        </div>
+
+    </section>
+
+
+    <section id="our-approach">
         <h2>test</h2>
     </section>  
 

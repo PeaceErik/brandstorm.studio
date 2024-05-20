@@ -111,7 +111,7 @@ header {
 
 /* Section 1: Hero */
 
-.hero {
+#hero {
     height: 100vh;
 }
 
@@ -143,9 +143,29 @@ header {
 
 }
 
+
 /* Section 2: Approach */
 
-.our-approach {
+#our-approach {
     height: 200vh;
     background-color: #fff;
+}
+
+
+/* Section 3: Services */
+
+#our-services {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #fff;
+}
+
+.headline-container {
+    height: 10vh;
+}
+
+h2 {
+    color: black;
+    font-size: 2rem;
 }
