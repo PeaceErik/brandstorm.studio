@@ -11,8 +11,9 @@
          </div>' ?>
 
     <?= '<div class="header-right">
-            <div class="menu-line1"></div>
-            <div class="menu-line2"></div>
+            <button class="menu-btn" popovertarget="menu-pop" popovertargetaction="show"></button>
+            <button popovertarget="menu-pop" popovertargetaction="hide">hide<button>
+            <div id="menu-pop" popover>This is a test</div>
          </div>' ?>
 
 <?= '</header>' ?>
