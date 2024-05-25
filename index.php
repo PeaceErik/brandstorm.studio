@@ -65,7 +65,34 @@
                 <h2>OUR SERVICES</h2>
             </div>
         </div>
-        <p> test </p>
+
+        <div id="description-container">
+            <p id="service-description"></p>
+        </div>
+
+        <div class="our-services-list">
+
+            <button class="service-1" data-text="Digital design involves creating visual materials for the digital realm, ranging from websites to social media graphics and digital advertisements. It encompasses designing user interfaces (UI), user experiences (UX), and interactive elements that optimize digital platforms for engaging and user-friendly experiences.
+            Digital design helps businesses establish a strong online presence, enhance brand visibility, and effectively communicate with their target audience in the digital space.">Digital Design</button>
+
+            <button class="service-2" data-text="test2">Web Design and Development</button>
+            <button class="service-3" data-text="test3">Branding and Identity</button>
+            <button class="service-4" data-text="test4">System Interface Design</button>
+
+        </div>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', (event) => {
+                const buttons = document.querySelectorAll('.our-services-list button');
+                const description = document.getElementById('service-description');
+
+            buttons.forEach(button => {
+                button.addEventListener('click', () => {
+                    description.textContent = button.getAttribute('data-text');
+                });
+            });
+            });
+        </script>
 
     </section>
 
